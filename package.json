@@ -1,0 +1,30 @@
+{
+  "name": "drimerserver.v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadNizar/DrimerServer.v1.git"
+  },
+  "author": "Ahmad Nizar, Amelia Rahman, Chandra Buwana, Faris.WD, Wisnu.DJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadNizar/DrimerServer.v1/issues"
+  },
+  "homepage": "https://github.com/AhmadNizar/DrimerServer.v1#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.1.0",
+    "nodemon": "^1.14.10"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
