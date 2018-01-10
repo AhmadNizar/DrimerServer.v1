@@ -5,3 +5,4 @@ deploy:
   provider: gae
   keyfile: DriMerServer-cf5993bf9275.json
   project: drimerserver
+  skip_cleanup: true
