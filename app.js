@@ -1,7 +1,7 @@
 const app = require('express')()
 
 app.use('/test', (req, res) => {
-  res.send({Nijar : 'tamvan banget'})
+  res.send({Nijar : 'Ahmad'})
 })
 
 app.use('/', (req, res) => {
